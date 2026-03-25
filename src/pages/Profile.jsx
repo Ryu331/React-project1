@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Logo from "../assets/img/logo.webp";
 
 function Profile() {
   return (
@@ -9,7 +10,7 @@ function Profile() {
         {/* Avatar */}
         <div className="flex justify-center mb-4">
           <img
-            src="src\assets\img\logo.webp"
+            src={Logo}
             alt="Profile"
             className="w-24 h-24 rounded-full border-4 border-blue-500 shadow-blue-500"
           />
