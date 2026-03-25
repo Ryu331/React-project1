@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
+import img1 from "../assets/img/img1.jpeg";
+import img2 from "../assets/img/img2.jpeg";
+import img3 from "../assets/img/img3.jpeg";
 
-const images = [
-  "src/assets/img/img1.jpeg",
-  "src/assets/img/img2.jpeg",
-  "src/assets/img/img3.jpeg",
-];
+const images = [img1, img2, img3];
 
 function Carousel() {
     const [index, setIndex] = useState(0);
