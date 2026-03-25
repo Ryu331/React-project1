@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Logo from "../assets/img/logo.webp";
 
 function Profile() {
